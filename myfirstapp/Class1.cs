@@ -19,5 +19,9 @@ namespace myfirstapp
         {
             return Number*Number;
         }
+        public int sum(int x)
+        { return x + x; }
+
+
     }
 }
