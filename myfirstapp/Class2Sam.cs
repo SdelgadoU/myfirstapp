@@ -8,5 +8,15 @@ namespace myfirstapp
 {
     internal class Class2Sam
     {
+
+        public int minusnum(int a, - int b)
+        { 
+        return a + b;
+
+        }
+
+
+
+
     }
 }
