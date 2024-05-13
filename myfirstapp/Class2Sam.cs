@@ -9,9 +9,9 @@ namespace myfirstapp
     internal class Class2Sam
     {
 
-        public int minusnum(int a, - int b)
+        public int minusnum(int a,  int b,int c)
         { 
-        return a + b;
+        return a - b - c;
 
         }
 
