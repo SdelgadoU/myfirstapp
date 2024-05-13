@@ -6,22 +6,25 @@ using System.Threading.Tasks;
 
 namespace myfirstapp
 {
-    internal class Class1
+    internal record Class1(int Number)
     {
-
-        public int Number { get; set; }
-        public Class1(int number)
+        public int GetSqurt()
         {
-            Number = number;
+            return Number * Number;
         }
-
-        public int GetSqurt() 
-        {
-            return Number*Number;
-        }
-        public int sum(int x)
-        { return x + x; }
-
-
+        public int sum(int x) => x + x;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
