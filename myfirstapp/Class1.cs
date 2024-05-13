@@ -8,5 +8,9 @@ namespace myfirstapp
 {
     internal class Class1
     {
+        public int sum(int x)
+        { return x + x; }
+
+
     }
 }
